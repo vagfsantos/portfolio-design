@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 100%;
+	list-style:none;
+	vertical-align:baseline;
+	text-decoration: none;
+}
+
+@font-face {
+  font-family: "feather";
+  src: url("../fontes/feather-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  	font-family: "proxima-nova", sans-serif;
+	font-weight:400;
+  }
+
+h1{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.botao{
+	background-color:rgba(255,255,255,.2); 
+	width:100%;
+	padding:.7em 2em;
+	color:#1a1a1a;
+	border:1px solid #1a1a1a;
+	font-size: 1em;
+	cursor: pointer;
+	transition:.5s;
+}
+
+.botao:hover{
+	background-color:#1a1a1a;
+	color: #ffdd00;
+}
+
+.setas{
+	width:25px;
+	height:25px;
+	border-radius: 100%;
+	border: 1px solid #1a1a1a;
+	background:rgba(255,255,255,.2);
+	color:#000;
+	font-family:'feather';
+	text-align: center;
+	padding: .5em;
+	font-size: 1.2em;
+	cursor: pointer;				
+	transition: .5s;
+}
+
+.setas:hover{
+	background: #1a1a1a;
+	color:#fff;
+}
+
+/* ----------------- NAVBAR - MENU */
+section#navbar{
+	width:320px;
+	height:100%;
+	background-color: #ffdd00;
+	position: fixed;
+	float:left;
+	display: inline-block;
+	left:0;
+	top:0;
+	z-index: 1;
+	box-shadow: 5px 0 5px rgba(0,0,0,.4);
+}
+section#navbar:before{
+	content: '';
+	background-image:url('../imagens/fnd-nav.png');
+	width:320px;
+	height:100%;
+	position: fixed;
+	float:left;
+	z-index: -1;
+	opacity: .15;
+}
+
+section#navbar img{
+	position: absolute;
+	left: 0; top: 1em; right: 0;
+	margin: 0 auto 2em auto;
+	width: 30%;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+
+section#navbar img:hover{
+	width: 31%;
+}
+
+nav#menu_categorias,
+nav#menu_opcoes{
+	width:55%;
+	height:305px;
+	position: absolute;
+	top:8.2em;
+	left: 0; right: 0;
+	margin:0 auto;
+	text-align: center;
+}
+nav#menu_opcoes{
+	top:26em;
+}
+nav#menu_categorias h1{
+	font-size: 2.3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: .9em;
+	margin-bottom: .2em;
+	color: #1a1a1a;
+	transition:.2s ease-in-out;
+}
+
+nav#menu_categorias h1:hover{
+	color:#000;
+}
+
+section#navbar ul li{
+	width:100%;
+	padding:0.7em 0;
+	cursor: pointer;
+	transition:.5s;
+}
+
+section#navbar ul li:hover{
+	background-color:#1a1a1a;
+}
+
+section#navbar ul li:hover a{
+	color: #ffdd00;
+}
+
+section#navbar ul li a{
+	width: 100%;
+	color:#1a1a1a;
+	font-size: 1em;
+	transition:.5s ease-in;
+}
+
+section#navbar footer{
+	width: 320px;
+	position: fixed;
+	left: 0; bottom: 0;
+	padding:.6em 0;
+	text-align: center;
+	font-size: .8em;
+	background-color: #7F7326;
+}
+
+
+
+
+
+
+/* ----------------- CONTENT - CONTEUDO - MAIN */
+section#content{
+	width:calc(100% - 320px);
+	height:100%;
+	position: fixed;
+	left:320px;
+	overflow-y:auto;
+	overflow-x: hidden;
+}
+
+section#content header#title-slide{
+	width: 100%;
+	position: absolute;
+	top:75%;
+	left:5%;
+	text-align: left;
+}
+
+section#content header#title-slide h1{
+	margin-bottom: .5em;
+}
+
+section#content div#controladores{
+	width: 90%;
+	height: 30px;
+	font-family: feather;
+	position: absolute;
+	top: 60%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+section.carregando{
+	background: url('../imagens/carregando/carregando.gif') center center no-repeat;
+	background-size: 10%;
+}
+
+section#content div#imgBanner{
+	width: 100%;
+	height: 100%;
+}
+
+
+section#content .foto1{
+	background: url('../imagens/banner/slide1.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+section#content .foto2{
+	background: #1a1a1a;
+	background-size: cover;
+}
+

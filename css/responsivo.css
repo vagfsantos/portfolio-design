@@ -1,0 +1,32 @@
+/* REGULANDO ALTURA DO MENU */
+@media screen and (min-height:800px){
+	/* BARRA DE MENUS */
+	section#navbar img{
+		width: 40%;
+	}
+	section#navbar img:hover{
+		width: 41%;
+	}
+	nav#menu_categorias h1{
+		font-size: 2.8em;
+		margin-bottom: 1.2em;
+	}
+	
+	nav#menu_categorias{
+		top:10em;
+	}
+	
+	nav#menu_opcoes{
+		top:35em;
+	}
+	
+	section#navbar ul li a{
+		font-size: 1.2em;
+	}
+	
+	
+	/* TITULO E BOTAO DO SLIDE */
+	section#content header#title-slide{
+		top:80%;
+	}
+}

@@ -1,0 +1,136 @@
+/* PAGINAS - LISTAS DE PROJETOS*/
+header.categoria_header{
+	width: 100%;
+	height: 450px;
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	overflow:hidden;
+}
+
+header.categoria_header:before{
+	content: '';
+	width: 100%;
+	height: 450px;
+	position: absolute;
+	opacity:.7;
+	z-index: 1;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent 15%, rgba(0,0,0,.9) 70%);
+	-webkit-transition:all .6s;
+}
+
+header.categoria_header:hover:before{
+	opacity:.9;
+}
+
+header.categoria_header img{
+	width: 100%;
+}
+
+header.categoria_header h1{
+	text-align: center;
+    top: 300px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+	font-size:4em;
+    color: #fff;
+	z-index: 1;
+	-webkit-transition: .3s;
+	transition-property: top, text-shadow;
+	perspective: 100px;
+}
+
+header.categoria_header:hover h1{
+	top:290px;
+	text-shadow: 0 0 5px #fff;
+}
+
+header.categoria_header a{
+	position: absolute;
+	right: 2em;
+	top: 1em;
+	z-index:3;
+}
+
+
+
+section.lista_projetos{
+	width: 100%;
+	height: 300px;
+	margin-bottom: 1.5em;
+}
+
+section.lista_projetos:last-child{
+	margin-bottom: 0;
+}
+
+section.lista_projetos div:nth-child(1){
+	overflow: hidden;
+	width: 60%;
+	height: 100%;
+	float:left;
+	border-top: 1px solid #1a1a1a;
+	border-bottom: 1px solid #1a1a1a;
+}
+
+section.lista_projetos div:nth-child(1) img{
+	width: 100%;
+	perspective: 1px;
+	transition: transform .3s;
+}
+
+section.lista_projetos div:nth-child(2){
+	width: calc(40% - 4em - 2px);
+	height: calc(100% - 4em);
+	padding: 2em;
+	float:left;
+	border: 1px solid #1a1a1a;
+	position: relative;
+	    border-right: 0;
+}
+
+section.lista_projetos div:nth-child(2) a{
+	position: absolute;
+	top: 80%;
+	width: 70px;
+}
+
+section.lista_projetos:hover div:nth-child(2) a{
+	background: #ffdd00;
+	color: #1a1a1a;
+	border: 1px solid #ffdd00;
+}
+
+section.lista_projetos div:nth-child(2) a:hover{
+	background: #1a1a1a;
+	color: #ffdd00;
+	border: 1px solid #fff;
+}
+
+section.lista_projetos:hover header h1{
+	color:#ffdd00;
+}
+
+section.lista_projetos:hover{
+	background:#1a1a1a;
+}
+section.lista_projetos:hover p{
+	color:#fff;
+}
+
+section.lista_projetos:hover div:nth-child(1) img{
+	transform: translateY(-15px);
+}
+
+header.categoria_header{
+	perspective: 1px;
+}
+
+section.lista_projetos header h1,
+section.lista_projetos p,
+section.lista_projetos{
+	transition-property: background, color;
+	transition: .5s;
+}

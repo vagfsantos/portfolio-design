@@ -1,0 +1,74 @@
+
+
+
+
+/* PAGINA DOS PROJETOS - PRINCIPAL*/
+figure{
+	width:100%;
+	height: auto;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+figure figcaption{
+	width:100%;
+	height:30%;
+	position: relative;
+	background-color:#fff;
+	border-top:1px solid #1a1a1a;
+	box-sizing: border-box;
+	top: -5px;
+}
+
+.slide-projetos{
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+figure figcaption div{
+	width: 60%;
+	height: 80%;
+	position: absolute;
+	top: 2em;
+	left: 0; right: 0;
+	margin: auto;
+}
+
+figure figcaption h1{
+	font-weight: bold;
+}
+
+figure figcaption p{
+	line-height: 25px;
+}
+
+figure ul li img{
+	width: 100%;
+}
+
+figure div#controladores-img{
+	width:60%;
+	height: 1em;
+	position: absolute;
+	top: 60%;
+	left: 0; right:0;
+	margin: 0 auto;
+	z-index:2;
+}
+
+#slide-cabecalho li{
+	width: 100%;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 0;
+	opacity: 0;
+	transition: 1s ease-out;
+	transition-property: left, opacity; 
+}
+
+#slide-cabecalho li.ativo{
+	opacity: 1;
+    position: relative;
+}
