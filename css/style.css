@@ -16,17 +16,17 @@
 }
 
 body{
-  	font-family: "proxima-nova", sans-serif;
+  	font-family: 'Raleway', sans-serif;
 	font-weight:400;
   }
 
 h1{
 	font-size: 2.5em;
-	font-weight: bold;
+	font-weight: 800;
 }
 
 .botao{
-	background-color:rgba(255,255,255,.2); 
+	background-color:rgba(255, 255, 255, .2); 
 	width:100%;
 	padding:.7em 2em;
 	color:#1a1a1a;
@@ -60,6 +60,7 @@ h1{
 	background: #1a1a1a;
 	color:#fff;
 }
+
 
 /* ----------------- NAVBAR - MENU */
 section#navbar{
@@ -98,8 +99,7 @@ section#navbar img:hover{
 	width: 31%;
 }
 
-nav#menu_categorias,
-nav#menu_opcoes{
+nav#menu_categorias{
 	width:55%;
 	height:305px;
 	position: absolute;
@@ -108,9 +108,7 @@ nav#menu_opcoes{
 	margin:0 auto;
 	text-align: center;
 }
-nav#menu_opcoes{
-	top:26em;
-}
+
 nav#menu_categorias h1{
 	font-size: 2.3em;
 	text-transform: uppercase;
@@ -125,27 +123,24 @@ nav#menu_categorias h1:hover{
 	color:#000;
 }
 
-section#navbar ul li{
-	width:100%;
-	padding:0.7em 0;
-	cursor: pointer;
-	transition:.5s;
-}
-
-section#navbar ul li:hover{
-	background-color:#1a1a1a;
-}
-
-section#navbar ul li:hover a{
-	color: #ffdd00;
+section#navbar ul{
+	margin-top: 2em;
 }
 
 section#navbar ul li a{
-	width: 100%;
+	width:100%;
 	color:#1a1a1a;
-	font-size: 1em;
-	transition:.5s ease-in;
+	padding:0.7em 0;
+	display: block;
+	cursor: pointer;
+	transition:.3s;
 }
+
+section#navbar ul li a:hover{
+	background-color:#1a1a1a;
+	color: #ffdd00;
+}
+
 
 section#navbar footer{
 	width: 320px;
