@@ -23,15 +23,20 @@ var id = 0;
 
 var slide1 = new Banner();
 slide1.img = "foto1";
-slide1.titulo = "Um banner ae irmao";
-slide1.link = "paginas/design.html";
+slide1.titulo = "Folder - campanha WTT Active";
+slide1.link = "projetos-wtt.php";
 
 var slide2 = new Banner();
 slide2.img = "foto2";
-slide2.titulo = "Muydeisdjsiahdiuas";
-slide2.link = "teste.php";
+slide2.titulo = "Projeto APP - Partiu Cultura";
+slide2.link = "projetos-partiu-cultura.php";
 
-var meusBanners = [slide1, slide2];
+var slide3 = new Banner();
+slide3.img = "foto3";
+slide3.titulo = "Site e-commerce - Quem Dá Menos";
+slide3.link = "projetos-quem-da-menos.php";
+
+var meusBanners = [slide1, slide2, slide3];
 
 window.onload = function(){
 	meusBanners[id].exibir();
