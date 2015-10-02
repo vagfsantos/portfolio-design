@@ -3,7 +3,9 @@
 		<body>
 
 <header id="header_design" class="categoria_header">
-	<img id="imgParalax" src="imagens/fotos/design/_capa/design.jpg"/>
+	<div class="thumbnail-secao">
+		<img id="imgParalax" src="imagens/fotos/design/_capa/design.jpg"/>
+	</div>
 	<h1 id="tituloParalax">Design Gráfico</h1>
 	<a id="volta_home" class="setas" href="index.php">&#xe094</a>
 </header>

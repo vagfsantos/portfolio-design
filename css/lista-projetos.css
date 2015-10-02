@@ -1,30 +1,38 @@
+/* PAGINAS - BACKGROUND FOTO DE CAPA DA SEÇÃO*/
+#header_design{
+	background: url('../imagens/fotos/design/_capa/design.jpg');
+}
+
+
+
 /* PAGINAS - LISTAS DE PROJETOS*/
 header.categoria_header{
 	width: 100%;
-	height: 450px;
-	background-size:cover;
-	background-position: center;
-	background-attachment: fixed;
-	overflow:hidden;
-}
-
-header.categoria_header:before{
-	content: '';
-	width: 100%;
-	height: 450px;
-	position: absolute;
-	opacity:.7;
-	z-index: 1;
-	background-image: linear-gradient(to bottom, rgba(0,0,0,.6), transparent 15%, rgba(0,0,0,.9) 70%);
-	-webkit-transition:all .6s;
-}
-
-header.categoria_header:hover:before{
-	opacity:.9;
+    height: 450px;
+    overflow: hidden;
+	position:relative;
 }
 
 header.categoria_header img{
-	width: 100%;
+	margin-left: -100px;
+}
+
+header.categoria_header .thumbnail-secao{
+	width: 20%;
+    height: 230px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    border-radius: 100%;
+    overflow: hidden;
+	transition: .2s ease-in-out;
+	border: 6px solid #1a1a1a;
+}
+
+.thumbnail-secao:hover{
+	transform: scale(1.05);
+	border: 6px solid #ffdd00;
 }
 
 header.categoria_header h1{
@@ -35,7 +43,6 @@ header.categoria_header h1{
     left: 0;
     right: 0;
 	font-size:4em;
-    color: #fff;
 	z-index: 1;
 	-webkit-transition: .3s;
 	transition-property: top, text-shadow;
@@ -43,8 +50,7 @@ header.categoria_header h1{
 }
 
 header.categoria_header:hover h1{
-	top:290px;
-	text-shadow: 0 0 5px #fff;
+	top:295px;
 }
 
 header.categoria_header a{
