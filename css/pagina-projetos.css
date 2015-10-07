@@ -48,13 +48,13 @@ figure ul li img{
 }
 
 figure div#controladores-img{
-	width:60%;
-	height: 1em;
-	position: absolute;
-	top: 60%;
-	left: 0; right:0;
-	margin: 0 auto;
-	z-index:2;
+	width: 46px;
+    height: 1em;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    margin: 0 auto;
+    z-index: 2;
 }
 
 #slide-cabecalho li{

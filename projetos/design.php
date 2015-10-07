@@ -117,4 +117,9 @@ O projeto funcinaria como uma plataforma de leilão reverso em grupo, onde o cli
 		<a href="projetos-wtt.php" class="botao">Ver Mais</a>	
 	</div>
 </section>
-<?php incluirJS("paralax"); ?>
+
+<footer class="lista_rodape">
+	<h1>Gostou dos projetos? Entre em contato</h1>
+	<a class="botao" href="contato.php">Clique aqui</a>
+	<button type="button"></button>
+</footer>

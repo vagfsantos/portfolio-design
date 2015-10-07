@@ -1,9 +1,7 @@
 <?php incluirCSS("pagina-projetos");?>
 </head>
 <body>
-			
-			
-
+	<div id="loading" class="carregando"></div>	
 <figure>
 	<div class="slide-projetos">
 		<!-- Setas controladoras -->

@@ -110,3 +110,18 @@ section.lista_projetos div:nth-child(2) a{
 section.lista_projetos:hover div:nth-child(1) img{
 	transform: translateY(-15px);
 }
+
+/* Rodape */
+.lista_rodape{
+	width:100%;
+	height:100px;
+	margin: 2em 0;
+	text-align:center;
+}
+
+.lista_rodape h1{
+	font-weight: 300;
+	margin-bottom: 1em;
+}
+
+

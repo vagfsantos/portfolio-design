@@ -4,13 +4,6 @@
 var SETA_DIREITA = 39;
 var SETA_ESQUERDA = 37;
 
-var divSlide = document.querySelectorAll(".slide-projetos");
-var areaMouseOver = divSlide[0];
-var mouseAtivo = false;
-
-
-// direcao do clique
-var direita = 1;
 
 // lista das imagens da pagina
 var lista = document.querySelector("#slide-cabecalho"); 
@@ -32,8 +25,6 @@ function trocar(e){
 
 // Trocando a imagem para proxima
 function trocarProximo(){
-	if(mouseAtivo) return; // se mouse esta dentro do slide NAO MUDE
-	
 	var ativo = document.getElementsByClassName("ativo");
 	
 	// "SE" > for a ultima imagem volte para a primeira, "SENAO" > vá para a proxima img
@@ -74,19 +65,15 @@ var proximo = document.getElementById("setaProximo");
 anterior.addEventListener("click", trocarProximo);
 proximo.addEventListener("click", trocarAnterior);
 
-// se mouse esta dentro do slide NAO MUDE
-areaMouseOver.addEventListener("mouseover", function(){
-	mouseAtivo = true;
-});
-areaMouseOver.addEventListener("mouseout", function(){
-	mouseAtivo = false;
-});
-
 //recebendo setas do teclado
 window.addEventListener("keydown", function(e){
 	if(e.keyCode == SETA_DIREITA) trocarProximo();
 	if(e.keyCode == SETA_ESQUERDA) trocarAnterior();
 });
 
-// contagem para troca de banner
-var contagem = setInterval(trocarProximo, 5000);
+function carregou(){
+	var div = document.querySelector("#loading");
+	div.classList.toggle("carregou");
+}
+
+window.addEventListener("load", carregou);
