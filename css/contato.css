@@ -1,0 +1,89 @@
+/* Imagem de fundo */
+#header_contato{
+	background: url('../imagens/fotos/design/_capa/design.jpg');
+	border-bottom: 1px solid #1a1a1a;
+}
+
+/* Header */
+header.categoria_header{
+	width: 100%;
+    height: 450px;
+    overflow: hidden;
+	position:relative;
+}
+
+header.categoria_header .thumbnail-secao{
+	width: 220px;
+    height: 220px;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    border-radius: 100%;
+    overflow: hidden;
+	transition: .2s ease-in-out;
+	border: 6px solid #1a1a1a;
+}
+
+.thumbnail-secao:hover{
+	transform: scale(1.05);
+	border: 6px solid #ffdd00;
+}
+
+.thumbnail-secao img{
+    position: absolute;
+    left: 0; right: 0;
+	top: 0; bottom: 0;
+	margin: auto;
+}
+
+.thumbnail-icon{
+	width: 120px;
+    height: 120px;
+}
+
+header.categoria_header h1{
+	text-align: center;
+    top: 300px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+	font-size:4em;
+	z-index: 1;
+	-webkit-transition: .3s;
+	transition-property: top, text-shadow;
+	perspective: 100px;
+}
+
+header.categoria_header a{
+	position: absolute;
+	right: 2em;
+	top: 1em;
+	z-index:3;
+}
+
+/* Conteúdo principal */
+
+section.contato{
+	padding:0 10%;
+	margin: 2em 0;
+}
+
+section.contato p {
+	line-height: 1.5em;
+}
+
+.formulario{
+	width:100%;
+	display: block;
+	margin:0 0 2em 0;
+	padding: .6em;
+	border: 1px solid #1a1a1a;
+	font-size: 1.3em;
+	font-family: 'Raleway', sans-serif;
+}
+
+.botao-form{
+	width:40%;
+}
