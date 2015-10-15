@@ -5,7 +5,6 @@
 }
 
 
-
 /* PAGINAS - LISTAS DE PROJETOS*/
 header.categoria_header{
 	width: 100%;
@@ -33,12 +32,15 @@ header.categoria_header .thumbnail-secao{
 }
 
 .thumbnail-secao img{
-	width: 120px;
-    height: 120px;
     position: absolute;
     left: 0; right: 0;
 	top: 0; bottom: 0;
 	margin: auto;
+}
+
+.thumbnail-icon{
+	width: 120px;
+    height: 120px;
 }
 
 header.categoria_header h1{
