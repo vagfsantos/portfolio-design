@@ -1,7 +1,7 @@
 <main id="container">
 	<section id="navbar">
-		<a href="index.php"><img src="imagens/logo.svg" alt="Logotipo Vagner Santos"/></a>
 		<nav id="menu_categorias">
+		<a href="index.php"><img src="imagens/logo.svg" alt="Logotipo Vagner Santos"/></a>
 			<a href="index.php"><h1>vagner<br/>santos</h1></a>
 			<ul>
 				<li><a href="design.php">Projetos</a></li>

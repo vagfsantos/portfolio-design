@@ -26,3 +26,54 @@
 		top:80%;
 	}
 }
+
+
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 1200px){
+	/* MENU PRINCIPAL  --------------------------------- */
+	section#navbar{
+		width:320px;
+		height:100%;
+		position: fixed;
+		float:left;
+		display: inline-block;
+	}
+
+	section#navbar:before{
+		content: '';
+		width:320px;
+		height:100%;
+		position: fixed;
+	}
+	
+	section#navbar img{
+		width: 60%;
+		cursor: pointer;
+
+		transition: .2s ease-in-out;
+		-webkit-transition: .2s ease-in-out;
+		-moz-transition: .2s ease-in-out;
+		-ms-transition: .2s ease-in-out;
+		-o-transition: .2s ease-in-out;
+	}
+
+	section#navbar img:hover{
+		transform: translateY(-5px);
+	}
+
+	nav#menu_categorias{
+		width:55%;
+		height:305px;
+		position: absolute;
+		left: 0; right: 0;
+		margin:0 auto;
+	}
+	
+	section#navbar footer{
+		width: 320px;
+		position: fixed;
+	}
+	/* MENU PRINCIPAL  --------------------------------- FINAL*/
+
+}
