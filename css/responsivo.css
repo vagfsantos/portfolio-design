@@ -20,7 +20,6 @@
 		font-size: 1.2em;
 	}
 	
-	
 	/* TITULO E BOTAO DO SLIDE */
 	section#content header#title-slide{
 		top:80%;
@@ -38,6 +37,7 @@
 		position: fixed;
 		float:left;
 		display: inline-block;
+		left:0;
 	}
 
 	section#navbar:before{
@@ -74,6 +74,14 @@
 		width: 320px;
 		position: fixed;
 	}
+	
+	/* MENU MOBILE */
+	.cabecalho-mobile{
+		display: none;
+		visibility: hidden;
+	}
+
+
 	/* MENU PRINCIPAL  --------------------------------- FINAL*/
 
 
@@ -108,5 +116,36 @@
 		left: 0;
 		right: 0;
 		margin: 0 auto;
+	}
+
+	/* CONTEUDO PRINCIPAL  ---------------------------------FINAL*/
+
+	/* LISTA DE PROJETOS  -----------------------------------*/
+	section.lista_projetos{
+		height: 400px;
+		margin-top: 1em;
+	}
+
+	section.lista_projetos div:nth-child(1){
+		overflow: hidden;
+		width: 60%;
+		height: 100%;
+		float:left;
+		border-top: 1px solid #1a1a1a;
+		border-bottom: 1px solid #1a1a1a;
+	}
+
+	section.lista_projetos div:nth-child(2){
+		width: calc(40% - 4em - 2px);
+		height: calc(100% - 4em);
+		float:left;
+		position: relative;
+	}
+
+	section.lista_projetos div:nth-child(2) a{
+		position: absolute;
+		top: 80%;
+		width: 70px;
+    	margin-top: 0;
 	}
 }

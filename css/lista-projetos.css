@@ -68,8 +68,6 @@ header.categoria_header a{
 
 section.lista_projetos{
 	width: 100%;
-	height: 400px;
-	margin-top: 1em;
 }
 
 section.lista_projetos p{
@@ -79,10 +77,6 @@ section.lista_projetos p{
 
 
 section.lista_projetos div:nth-child(1){
-	overflow: hidden;
-	width: 60%;
-	height: 100%;
-	float:left;
 	border-top: 1px solid #1a1a1a;
 	border-bottom: 1px solid #1a1a1a;
 }
@@ -94,19 +88,16 @@ section.lista_projetos div:nth-child(1) img{
 }
 
 section.lista_projetos div:nth-child(2){
-	width: calc(40% - 4em - 2px);
-	height: calc(100% - 4em);
 	padding: 2em;
-	float:left;
 	border: 1px solid #1a1a1a;
-	position: relative;
 	border-right: 0;
 }
 
 section.lista_projetos div:nth-child(2) a{
-	position: absolute;
-	top: 80%;
 	width: 70px;
+	margin-top:50px;
+	display: block;
+    margin-top: 25px;
 }
 
 section.lista_projetos:hover div:nth-child(1) img{
