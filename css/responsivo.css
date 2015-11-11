@@ -81,6 +81,10 @@
 		visibility: hidden;
 	}
 
+	section#navbar footer{
+		display: block;
+	}
+
 
 	/* MENU PRINCIPAL  --------------------------------- FINAL*/
 
@@ -148,4 +152,42 @@
 		width: 70px;
     	margin-top: 0;
 	}
+
+
+	section.lista_projetos div:nth-child(1){
+		border-top: 1px solid #1a1a1a;
+		border-bottom: 1px solid #1a1a1a;
+	}
+
+	section.lista_projetos div:nth-child(2){
+		padding: 2em;
+		border: 1px solid #1a1a1a;
+		border-right: 0;
+	}
+
+	section.lista_projetos:hover div:nth-child(1) img{
+		transform: translateY(-15px);
+	}
+
+
+	/**/
+
+	figure div#controladores-img{
+		width: 46px;
+	    height: 1em;
+	    position: absolute;
+	    top: 60%;
+	    left: 10%;
+	    margin: 0 auto;
+	    z-index: 2;
+	}
+
+	/**/
+
+	section.sobre-mim a{
+		width:auto;
+		margin-bottom: 0;
+		display:inherit;
+	}
+
 }

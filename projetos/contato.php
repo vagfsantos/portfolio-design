@@ -1,4 +1,5 @@
-	<?php incluirCSS("contato"); ?>
+<?php incluirCSS("contato"); ?>
+<?php incluirCSS("responsivo");?>
 	</head>
 		<body>
 

@@ -74,3 +74,9 @@ section.sobre-mim p {
 	line-height: 1.5em;
     margin-top: 1em;
 }
+
+section.sobre-mim a{
+	width:25%;
+	margin-bottom: 1em;
+	display: block;
+}

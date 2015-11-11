@@ -8,7 +8,7 @@
 /* PAGINAS - LISTAS DE PROJETOS*/
 header.categoria_header{
 	width: 100%;
-    height: 450px;
+    height: 500px;
     overflow: hidden;
 	position:relative;
 }
@@ -54,7 +54,6 @@ header.categoria_header h1{
 	z-index: 1;
 	-webkit-transition: .3s;
 	transition-property: top, text-shadow;
-	perspective: 100px;
 }
 
 header.categoria_header a{
@@ -64,33 +63,22 @@ header.categoria_header a{
 	z-index:3;
 }
 
-
-
 section.lista_projetos{
 	width: 100%;
 }
 
 section.lista_projetos p{
-	line-height: 20px;
+	line-height: 22px;
     font-size: 1.2em;
-}
-
-
-section.lista_projetos div:nth-child(1){
-	border-top: 1px solid #1a1a1a;
-	border-bottom: 1px solid #1a1a1a;
-}
-
-section.lista_projetos div:nth-child(1) img{
-	width: 100%;
-	perspective: 1px;
-	transition: transform .2s;
 }
 
 section.lista_projetos div:nth-child(2){
 	padding: 2em;
-	border: 1px solid #1a1a1a;
-	border-right: 0;
+}
+
+section.lista_projetos div:nth-child(1) img{
+	width: 100%;
+	transition: transform .2s;
 }
 
 section.lista_projetos div:nth-child(2) a{
@@ -100,16 +88,13 @@ section.lista_projetos div:nth-child(2) a{
     margin-top: 25px;
 }
 
-section.lista_projetos:hover div:nth-child(1) img{
-	transform: translateY(-15px);
-}
-
 /* Rodape */
 .lista_rodape{
 	width:100%;
 	height:100px;
-	margin: 2em 0;
+	padding: 2em 0;
 	text-align:center;
+	border-top:1px solid #1a1a1a; 
 }
 
 .lista_rodape h1{
