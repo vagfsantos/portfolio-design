@@ -5,17 +5,17 @@
 			
 
 <figure>
-	<div class="slide-projetos">
+	<div class="slide-projetos">		
+		<!-- Banner - imagens - slideshow -->
+		<ul id="slide-cabecalho">
+			<?php slideProjeto("design", "wtt", 4)?>
+		</ul>
+
 		<!-- Setas controladoras -->
 		<div id="controladores-img">
 			<p id="setaProximo" class="setas">&#xe094</p>
 			<p id="setaAnterior" class="setas">&#xe095</p>
 		</div>
-		
-		<!-- Banner - imagens - slideshow -->
-		<ul id="slide-cabecalho">
-			<?php slideProjeto("design", "wtt", 4)?>
-		</ul>
 	</div>
 		
 	<figcaption>

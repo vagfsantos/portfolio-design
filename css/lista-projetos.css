@@ -11,6 +11,8 @@ header.categoria_header{
     height: 500px;
     overflow: hidden;
 	position:relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 header.categoria_header .thumbnail-secao{

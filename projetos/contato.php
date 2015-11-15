@@ -1,5 +1,4 @@
 <?php incluirCSS("contato"); ?>
-<?php incluirCSS("responsivo");?>
 	</head>
 		<body>
 
@@ -14,18 +13,7 @@
 					
 		<!-- SOBRE -->			
 		<section class="contato">
-			<h1>Envie sua mensagem</h1>
-			<br/>
-			<form action="#" method="post">
-				<p>Nome:</p>
-				<input class="formulario" type="text" name="nome" placeholder="Digite seu nome" />
-
-				<p>E-mail:</p>
-				<input class="formulario" type="email" name="email" placeholder="Digite seu e-mail" />
-
-				<p>Mensagem:</p>
-				<textarea class="formulario" name="mensagem" rows="10" placeholder="Deixe sua mensagem" max="500"></textarea>
-				<input class="formulario botao botao-form" type="submit" name="email" placeholder="Seu e-mail" />
-			</form>
+			<h1>Envie sua mensagem para:</h1><br/>
+			<h3>santos.vagnerferreira@gmail.com</h3>
 
 		</section>

@@ -6,16 +6,17 @@
 
 <figure>
 	<div class="slide-projetos">
-		<!-- Setas controladoras -->
-		<div id="controladores-img">
-			<p id="setaProximo" class="setas">&#xe094</p>
-			<p id="setaAnterior" class="setas">&#xe095</p>
-		</div>
 		
 		<!-- Banner - imagens - slideshow -->
 		<ul id="slide-cabecalho">
 			<?php slideProjeto("design", "memory", 8)?>
 		</ul>
+
+		<!-- Setas controladoras -->
+		<div id="controladores-img">
+			<p id="setaProximo" class="setas">&#xe094</p>
+			<p id="setaAnterior" class="setas">&#xe095</p>
+		</div>
 	</div>
 		
 	<figcaption>

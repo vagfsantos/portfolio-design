@@ -4,16 +4,14 @@
 	section#navbar img{
 		width: 40%;
 	}
-	section#navbar img:hover{
-		width: 41%;
-	}
+
 	nav#menu_categorias h1{
 		font-size: 2.8em;
 		margin-bottom: 1.2em;
 	}
 	
 	nav#menu_categorias{
-		top:10em;
+		top:1em;
 	}
 	
 	section#navbar ul li a{
@@ -25,6 +23,8 @@
 		top:80%;
 	}
 }
+
+
 
 
 
@@ -56,10 +56,6 @@
 		-moz-transition: .2s ease-in-out;
 		-ms-transition: .2s ease-in-out;
 		-o-transition: .2s ease-in-out;
-	}
-
-	section#navbar img:hover{
-		transform: translateY(-5px);
 	}
 
 	nav#menu_categorias{
@@ -100,15 +96,12 @@
 		overflow-x: hidden;
 	}
 
-	section#content div#imgBanner{
-		height: 100%;
-	}
 
 	section#content header#title-slide{
 		width: 100%;
 		position: absolute;
-		top:75%;
-		left:5%;
+		top:65%;
+		left:0;
 		padding: none;
 		box-sizing: initial;
 	}
@@ -168,26 +161,4 @@
 	section.lista_projetos:hover div:nth-child(1) img{
 		transform: translateY(-15px);
 	}
-
-
-	/**/
-
-	figure div#controladores-img{
-		width: 46px;
-	    height: 1em;
-	    position: absolute;
-	    top: 60%;
-	    left: 10%;
-	    margin: 0 auto;
-	    z-index: 2;
-	}
-
-	/**/
-
-	section.sobre-mim a{
-		width:auto;
-		margin-bottom: 0;
-		display:inherit;
-	}
-
 }

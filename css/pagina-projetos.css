@@ -72,3 +72,19 @@ figure div#controladores-img p{
 	opacity: 1;
     position: relative;
 }
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 1200px){
+
+	/*PAGINA DE PROJETOS*/
+	figure div#controladores-img{
+		width: 75px;
+	    height: 55px;
+	    position: absolute;
+	    bottom: 5%;
+	    left:10%;
+	    right:initial;
+	    margin: auto;
+	    z-index: 2;
+	}
+}

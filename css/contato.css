@@ -68,21 +68,20 @@ header.categoria_header a{
 section.contato{
 	padding:0 10%;
 	margin: 2em 0;
+	text-align: center;
 }
 
 section.contato p {
 	line-height: 1.5em;
 }
 
-.formulario{
-	display: block;
-	margin:0 0 2em 0;
-	padding: .6em;
-	border: 1px solid #1a1a1a;
-	font-size: 1.3em;
-	font-family: 'Raleway', sans-serif;
+section.contato h3{
+	color:#aaa;
 }
 
-.botao-form{
-	width:40%;
+@media and (min-width:1200px){
+	section.contato h3{
+		font-size: 2.5em;
+		color:#aaa;
+	}
 }

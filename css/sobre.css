@@ -79,4 +79,12 @@ section.sobre-mim a{
 	width:25%;
 	margin-bottom: 1em;
 	display: block;
+	text-align: center;
+}
+
+@media screen and (min-width: 800px){
+	section.sobre-mim a{
+		width:auto;
+		display: inline-block;
+	}
 }
